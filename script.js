@@ -17,10 +17,6 @@ const DomElement = function (select, hei, wid, back, font) {
         elem.style.cssText = `height: ${this.height};
         width: ${this.width}; background-color: ${this.bg};
         font-size: ${this.fontSize}; `
-        elem.classList.height = this.height;
-        elem.classList.width = this.width;
-        elem.classList.backgroundColor = this.bg;
-        elem.classList.fontSize = this.fontSize;
     }
 
 }
